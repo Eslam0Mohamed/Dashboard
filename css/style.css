@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+}
+
+.menu {
+    /* display: none; */
+    background-color: rgb(251, 102, 58);
+    width: 60px;
+    padding: 20px;
+    height: 100vh;
+    overflow: hidden;
+    transition: 0.7;
+    /* display: none; */
+
+}
+
+.menu:hover {
+    width: 260px;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+.profile h2 {
+    font-size: 20px;
+}
+
+.img-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-left: 10px;
+
+}
+
+.img-box img {
+    width: 100%;
+
+}
+
+ul {
+   
+    position: relative;
+list-style: none;
+height: 95%;
+}
+
+ul li a {
+    display: block;
+    padding: 15px;
+    display: flex;
+    margin: 10px 0;
+    border-radius: 15px;
+    align-items: center;
+    gap: 40px;
+    text-decoration: none;
+    transition: 0.7s;
+
+}
+
+ul li a:hover {
+    background-color: antiquewhite;
+
+}
+
+.log-out {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.log-out a {
+    background-color:antiquewhite ;}
+
+ul li a i {
+    font-size: 30px;
+}
+
+/* .dashboard {
+    display: flex;
+} */
+
+.content {
+    margin: 10px;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.title {
+    padding: 20px;
+    background-color: #3952a3;
+    display: flex;
+    text-transform: capitalize;
+    align-items: center;
+    border-radius: 24px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    color:whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.items {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    
+    padding: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.data-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: cornflowerblue; */
+    background-color: #FB663A;
+    padding: 30px;
+    border-radius: 24px;
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+.data-item  i{
+font-size: 40px;
+color: white;
+}
+.data-item .text {
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.data-item .text span{
+font-size: 40px;
+}
+table{
+width: 100%;
+
+}
+table th {
+    padding: 20px 10px;
+    background-color: bisque;
+    border-radius: 8px;
+}
+
